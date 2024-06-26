@@ -1,16 +1,74 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Architectural Information</title>
+    <style>
+        body {
+            width: 1100px;
+            margin: 0 auto;
+            font-family: Arial, sans-serif;
+        }
+        .imageContainer {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .imageContainer img {
+            max-width: 100%;
+            height: auto;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        td {
+            width: 200px;
+        }
+        td.middle {
+            width: 600px;
+        }
+        .tableImage {
+            width: 100%;
+            height: auto;
+        }
+    </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
+    <h1>Architectural Information</h1>
+    <div class="imageContainer">
+        <img src="https://example.com/architecture-image.jpg" alt="Architecture Image">
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th>Column 1</th>
+                <th>Column 2</th>
+                <th>Column 3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><img src="https://example.com/image1.jpg" alt="Image 1" class="tableImage"></td>
+                <td class="middle">This is the text content for the middle column of the first row.</td>
+                <td><img src="https://example.com/image2.jpg" alt="Image 2" class="tableImage"></td>
+            </tr>
+            <tr>
+                <td><img src="https://example.com/image3.jpg" alt="Image 3" class="tableImage"></td>
+                <td class="middle">This is the text content for the middle column of the second row.</td>
+                <td><img src="https://example.com/image4.jpg" alt="Image 4" class="tableImage"></td>
+            </tr>
+        </tbody>
+    </table>
 </body>
-
 </html>
+
